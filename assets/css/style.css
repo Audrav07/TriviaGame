@@ -1,0 +1,169 @@
+body{
+background: url("../images/background3.png");
+background-size: 1300px 900px;
+background-repeat: no-repeat;
+
+
+}
+
+div.transbox {
+position: absolute;
+  margin:auto;
+ top:-50px;
+margin:120px;
+  width: 900px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 1.0;
+  filter: alpha(opacity=100); 
+}
+
+
+
+#img-wrapper{
+	position: relative;
+	text-align: center;
+}
+
+
+.btn-info {
+	background-color: #313477;
+	color: white;
+	font-family: 'Sigmar One', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	position: absolute;
+	margin-left: 10px;
+	margin-left:-100px;
+
+	bottom: 600px;
+}
+
+.btn-info:hover, .reset:hover{
+	background-color: #202364;
+}
+
+
+.mainContainer{
+	color: #2b4a76;
+	top:225px;
+	margin-right: 70px;
+	/*margin-left: 5px;*/
+	font-size: 30px;
+	font-family: 'Bubblegum Sans', cursive;
+	text-align: center;
+	position: relative;
+}
+
+
+
+
+
+#instructions{
+position: relative;
+margin-left: 10px;
+margin-right: 110px;
+bottom: 50px;
+top: 250px;
+font-size: 20px;
+font-family: 'Bubblegum Sans', cursive;
+	color: #946138;
+}
+
+.paragraph{
+	margin-right: 45px;
+}
+
+#headers{
+
+	margin: auto, auto, auto, auto;
+	color: #005960;
+	font-family: 'Frijole', cursive;
+}
+
+.center-align{
+	font-size: 40px;
+}
+
+
+
+
+.time{
+	color:#2b4a76;
+	
+	bottom:900px;
+}
+
+
+
+h2{
+	color:#2b4a76;
+	font-size: 20px;
+	top: 200px;
+}
+
+.thisChoice{
+	color:#2b4a76;
+	font-size: 30px;
+	
+}
+
+
+
+.thisChoice:hover{
+
+	color: #f6d155;
+	padding: 5px;
+	margin:0px;
+	
+
+}
+
+
+#startButton{
+	top:400px;
+	margin-left: -135px;
+
+}
+
+#playAgainBtn{
+top:300px;
+	margin-left: 50px;
+
+	background-color: #5bc0de;
+	color: white;
+	font-family: 'Sigmar One', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	position: absolute;
+	/*margin-left: 10px;*/
+/*	margin-left:-100px;*/
+
+	bottom: 600px;
+}
+
+#playAgainBtn:hover, .reset:hover{
+	background-color: #5bc0de;
+}
+
+
+.messages{
+	font-family: 'Bubblegum Sans', cursive;
+	color:#CE3175;
+	font-size: 50px;
+}
+
+#currentQuestion{
+	font-size:30px;
+	color:#d2691e;
+}
+
+/*@media screen and (max-width:640px){
+	.mainContainer{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
+*/
